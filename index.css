@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+.container-fluid{
+    padding-left: 400px;
+}
+
+.container-fluid .container{
+    margin: 10px;
+    padding: 30px;
+    background-color: aqua;
+    width: 50vw;
+}
+
+.part1 fieldset{
+    margin: 10px;
+    padding: 10px;
+}
+
+.part2 fieldset{
+    margin: 10px;
+    padding: 5px;
+}
+
+.part1 fieldset input{
+    margin: 10px;
+    padding: 2px;
+}
+
+.part2 fieldset input{
+    margin: 10px;
+    padding: 2px;
+}
+
+.container h3{
+    padding: 5px;
+}
+
+.container h2{
+    padding: 5px;
+    margin: 15px;
+}
+
+table{
+    padding: 5px;
+}
+
+table tr th {
+    padding: 5px;
+}
+
+table tr td {
+    padding: 5px;
+}

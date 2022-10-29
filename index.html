@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>hotel bill</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <h1>Hotel Bill</h1>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="part1">
+                <fieldset>
+                    <legend>personal Information</legend>
+                    Full Nmae: <input id="name" type="text"><br>
+
+                    Email Id: <input id="email" type="email">
+                </fieldset>
+            </div>
+
+
+            <div class="part2">
+                <fieldset>
+                    <legend>Your Orders</legend>
+                    Starters (Rs 250) <input id="starter" type="number"><br>
+                    Indian food (Rs 400) <input id="indian_food" type="number"><br>
+                    Chinese food (Rs 600) <input id="chinese_food" type="number"><br>
+                    Deserts (Rs 300) <input id="desert" type="number"><br>
+
+                </fieldset>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <fieldset>
+                <legend>Total Bill</legend>
+                <h3> Name: <span id="name-cont"></span> </h3>
+                <h3> Email Id: <span id="email-cont"></span></h3>
+
+                <table border="1px">
+
+                    <thead>
+                        <tr>
+                            <th>Menu</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Amount</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="bill_cont">
+                     
+                    </tbody>
+
+                </table>
+            </fieldset>
+
+           
+            <h2>Food Amount : <span id="total"></span></h2>
+            <h2>Gst (18%) : <span id="gst"></span></h2>
+            <h2>Tip : <span id="tip"></span></h2>
+            <h1>Total Bill : <span id="total_bill"></span></h1>
+            <h2 id="text"></h2>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
